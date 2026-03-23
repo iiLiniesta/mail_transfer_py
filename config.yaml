@@ -1,0 +1,23 @@
+email:
+  address: "xxxxxx@126.com"
+  password: "xxxxxxxxxxxxxxxx"
+
+smtp:
+  server: "smtp.126.com"
+  port: 465
+
+imap:
+  server: "imap.126.com"
+  port: 993
+
+
+filter:
+  subject_tag: "[MAIL_TRANSFER_V1]"
+
+download:
+  dir: "./downloads"
+
+transfer:
+  max_size_mb: 25
+  allow_split: true
+  chunk_size_mb: 22
